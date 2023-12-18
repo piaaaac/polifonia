@@ -7,7 +7,7 @@ Data Wanderings is an audiovisual installation created as part of Polifonia, a r
 ### 1. Data extraction
 
 Data wanderings uses data extracted from the [Choco](https://github.com/smashub/choco) database.
-Specifically, a collection of 20861 records representing the chord sequences played in songs analyzed in the context of the Polifonia project. The data is divided in csv files of 2000 records and available in the folder `choco_data--chords`.
+Specifically, a collection of 20861 records representing the timed chord sequences played in songs analyzed in the context of the Polifonia project. The data is divided in csv files of 2000 records and available in the folder `choco_data--chords`.
 
 The data has been extracted using queries like:
 
@@ -34,12 +34,13 @@ LIMIT 1000
 OFFSET 0
 ```
 
-### 2. Data manipulation
+### 2. Data manipulation and enrichment
 
-The file `chords_notes_frequencies.tsv` contains corrispondences of chords with notes and sound frequencies.
+The following step has been translating the chord names into data that was usable to create a generative and interactive installation. The chords have been processed using the [Harte](https://github.com/andreamust/harte-library) library, resulting in corrispondences of chords with notes and sound frequencies, available in the file `chords_notes_frequencies.tsv`.
 
 ### 3. Data utilization
 
+The data is fed in a system composed of a Touchdesigner patch and a Max-MSP patch, that read a random sequence of songs and transform their chord data in a generative audio-visual interactive composition. The Touchdesigner patch reads the note sequences and sends data to Max via the OSC protocol. User interaction is implemented using the input of a webcam. The live feed is analyzed to read the intensity of the visitor's movement.
 
 ## More info
 
