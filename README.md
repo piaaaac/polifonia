@@ -69,5 +69,5 @@ a POLIFONIA project
 
 [Umanesimo Artificiale](http://www.umanesimoartificiale.xyz/) is a non-profit cultural organization and network of artists working with exponential technologies. It operates worldwide from Fano, Italy, with partners throughout Europe. Umanesimo Artificiale was born with the intent to investigate what does it mean to be human in the era of artificial intelligence. It promotes computational (creative) thinking through the channel of digital and performing arts, raising awareness of a fertile relationship between humans, artists and new technologies.
 
-[Alex Piacentini](https://alexpiacentini.com) Visual artist, graphic designer and web developer. He uses the web and other digital media as multidimensional materials where space, time, data and interactivity fuse creating intersections between generative design, data visualization, interfaces, sound and visuals.
+[Alex Piacentini](https://alexpiacentini.com) Visual artist, graphic designer and creative developer. He uses the web and other digital media as multidimensional materials where space, time, data and interactivity fuse creating intersections between generative design, data visualization, interfaces, sound and visuals.
 
