@@ -2,7 +2,7 @@
 
 Data Wanderings is an audiovisual installation created as part of Polifonia, a research project funded by the Europe Horizon 2020 program.
 
-![preview](https://github.com/piaaaac/polifonia-data-wanderings/blob/main/polifonia-data-wanderings-5.png?raw=true)
+![preview](https://github.com/piaaaac/polifonia-data-wanderings/blob/main/documentation/polifonia-data-wanderings-5.png?raw=true)
 
 ## Creation process
 
